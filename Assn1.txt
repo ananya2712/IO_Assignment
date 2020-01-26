@@ -1,0 +1,29 @@
+//Ananya Uppal PES1UG19CS058
+
+IMPLEMENTING QUEUE USING STACK
+
+A queue is a linear data structure which follows the principle of FIFO(First in First out).
+It can be implmented using stacks by using 2 stacks. The operations enqueue() and dequeue() are used in this process.
+The stacks can be made to store information in two ways a) Making enqueue operation costly 
+							b) Making dequeue opertaion costly
+First stack(s1) is the main stack being used to store the data.
+While the second stack(s2) is to assist and store data temporarily during various operations.
+If the queue is empty, the first ele is pushed into the empty stack s1.
+If s1 is not empty, the move all the elements of s1 into stack s2 , element by element.
+Then add the new element to the stack s1 and shift all the data from s2 back into s1, element by element.
+This maintains the correct order of elements such that the new element is at the bottom of the stack.
+it looks like this at the end:
+		1 -> 2 -> ...... -> new_ele 
+
+APPLICATIONS OF STACKS AND QUEUES
+
+Stacks can be used for :
+	-> To reverse a string 
+	->Used as 'undo mechanism' in text editors
+	->it is used in lagnuage processing 
+		->space for parameters and local variables is created internally using a stack.
+		->compiler's syntax check for matching braces is implemented by using stack.
+		->support for recursion
+Queue is used for:
+	->Depth First search and Breadth First Search Mechanism
+	->Arithmetic expression evaluation (postfix to infix or vice versa)
