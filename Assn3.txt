@@ -1,0 +1,39 @@
+Ananya Uppal 
+PES1UG19CS058
+///////////////////////////////////////////////////////////////////////////////////////////////////
+TIME COMPLEXITIES OF VARIOUS DATA STRUCTURES
+1)Stacks 
+-Insertion: O(1) [beacuse gets added right at the top of the stack]
+-Deletion: O(1)  [because the first element of the stack is popped]
+-Searching: O(n) [because it has to traverse through the entire stack]
+
+2)Queues
+-Insertion: O(1) 
+-Deletion: O(n)
+-Searching: O(n) [ worst case time complexity]
+
+3)Binary Tree 
+-Insertion: O(n) [Worst case complexity]
+-Deletion: O(n)  [Worst case complexity]
+-Searching: O(n) [Worst case complexity]
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+HOW TO FIND NUMBER OF COMPONENTS IN A GRAPH 
+This can be solved by using simple DFS algorithm. Initially all the vertices of the binary tree can be declared as
+unvisited and marked 'u'. Then using pointers traverse through the given binary tree and for each vertex v(adjacent
+to the initial vertex , mark it as visited and print it.Recursively call the function to check if vertice is checked or 
+not.A count variable is also used to keep track for number of components.This variable gets incremented every time 
+the function finds a vertice unconnected to all others.
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+FOR GIVEN GRAPH:
+DFS:
+ABFCDHGIEJ
+BFS:
+ABCDFGHEIJ 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+Data Structure: Heaps
