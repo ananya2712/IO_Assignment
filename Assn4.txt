@@ -1,0 +1,28 @@
+ASSIGNMENT WEEK4
+
+BINARY TREE1:
+Inorder->D B G E H A C F 
+Preorder->A B D E G H C F 
+Postorder->D G H E B F C A
+Level Order->A B C D E F G H 
+
+BINARY TREE2:
+Inorder->H D B E A F C G
+Preorder->A B D H E C F G 
+Postorder->H D E B F C G A  
+Level Order->A B C D E F G H
+
+HEAPS 
+It is also called a priority queue.A heap is a tree-based data structure in which all the nodes of the tree are 
+in a specific order.For example, if X is the parent node of Y , then the value of X follows a specific order with respect to 
+the value of Y and the same order will be followed across the tree.
+The maximum number of children of a node in a heap depends on the type of heap. However, in the more commonly-used heap 
+type, there are at most 2 children of a node and it's known as a Binary heap.
+In binary heap, if the heap is a complete binary tree with N nodes, then it has smallest possible height which is log2N .
+Generally, Heaps can be of two types:
+->Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children.
+The same property must be recursively true for all sub-trees in that Binary Tree.
+->Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children.
+The same property must be recursively true for all sub-trees in that Binary Tree.
+Heaps are used in many famous algorithms such as Dijkstra's algorithm for finding the shortest path, the heap sort 
+sorting algorithm, implementing priority queues, and more.
